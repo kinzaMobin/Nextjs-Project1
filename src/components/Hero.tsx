@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Navbar from './Navbar'
 
@@ -10,9 +11,9 @@ const Hero = () => {
      <Navbar />
      <div className='container grid lg:grid-cols-2 h-[100vh-60px)]'>
       <div className='hidden lg:block'></div>
-      <div className='text-[60px] sm:text-[80px] font-bold leading-tight flex justify-center items-center '>
+      <div className='text-[60px] sm:text-[80px] font-bold leading-tight flex justify-center items-center'>
         <div>
-          <p data-aos="zoom-in-up">I'm</p>
+          <p data-aos="zoom-in-up">I&apos;m</p> 
           <p data-aos="zoom-in-up">Kinza</p>
           <p data-aos="zoom-in-up">Khan</p>
         </div>
@@ -22,4 +23,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;
